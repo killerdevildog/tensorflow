@@ -1,0 +1,11 @@
+# Requirements for TensorFlow documentation tools
+# Includes dependencies needed for comprehensive Java documentation generation
+
+# Core documentation generation
+tensorflow-docs-api
+
+# Git operations for external repository handling
+GitPython>=3.1.0
+
+# Standard dependencies
+absl-py

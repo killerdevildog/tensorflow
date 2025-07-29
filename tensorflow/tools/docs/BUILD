@@ -221,3 +221,12 @@ py_strict_binary(
         "@absl_py//absl/flags",
     ],
 )
+
+py_strict_binary(
+    name = "build_comprehensive_java_api_docs",
+    srcs = ["build_comprehensive_java_api_docs.py"],
+    deps = [
+        "@absl_py//absl:app",
+        "@absl_py//absl/flags",
+    ],
+)

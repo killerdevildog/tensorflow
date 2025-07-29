@@ -12,7 +12,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ==============================================================================
-"""Generate Java reference docs for TensorFlow.org."""
+"""Generate Java reference docs for TensorFlow.org.
+
+NOTE: This script generates documentation for the core TensorFlow Java API
+that's part of this repository. For comprehensive TensorFlow Java documentation
+including the latest TensorFlow Java library (v1.1.0) and ecosystem components,
+use build_comprehensive_java_api_docs.py instead.
+
+This addresses issue #96799 where the documentation was showing outdated 
+version information (0.3.3 instead of the current 1.1.0).
+"""
 import pathlib
 import shutil
 import subprocess
